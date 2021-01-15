@@ -1,0 +1,111 @@
+body {
+    background-color: lightblue;
+  }
+  
+  #myPage {
+    display: block;
+  }
+  
+  h1 {
+    color:green;
+    font-size: 50px;
+    line-height: 62px;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  #mainHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #mainNav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #mainNav li {
+    display:inline-block;
+    border-right:3px solid #bbb;
+  }
+  
+  #mainNav li:last-child {
+    border-right: none;
+  }
+  
+  #mainNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 28px;
+    text-decoration: none;
+  }
+  
+  #mainNav li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  #mainNav .active {
+    background-color: #4CAF50;
+  }
+
+  #mainImg img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.a {
+    text-align: center;
+    color:purple ;
+    font-family: inherit;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    background: #16edb0;
+    overflow: auto;
+  }
+
+  .gallary {
+    margin: 20px;
+    border: 1px solid darkblue;
+    float:left ;
+    width: 260px;
+  }
+
+  .gallary img {
+    width: 100%;
+    height: auto;
+  }
+
+  .description {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+  .footer {
+    position: bottom;
+    left: 0;
+    bottom: o;
+    height: 45px;
+    width: 100%;
+    background-color:rgb(65, 62, 62);
+    color: white;
+    text-align: left;
+  }
+  
+  
